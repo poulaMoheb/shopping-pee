@@ -10,7 +10,7 @@ export type Product = {
     color: string;
 };
 
-const products: Product[] = [
+export const products: Product[] = [
     { id: 1, name: 'Classic Leather Tote', category: 'Women', price: 89, stock: 'In Stock', rating: 4.8, color: 'Black' },
     { id: 2, name: 'Urban Stripe Tee', category: 'Men', price: 42, stock: 'Low Stock', rating: 4.6, color: 'White' },
     { id: 3, name: 'Glow Serum', category: 'Beauty', price: 58, stock: 'In Stock', rating: 4.9, color: 'Yellow' },

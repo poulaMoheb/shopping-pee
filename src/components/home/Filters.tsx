@@ -80,8 +80,8 @@ function Filters() {
                                 <button
                                     key={category}
                                     className={`rounded-full border px-3 py-2 text-sm font-semibold transition ${category === "All"
-                                        ? "border-black bg-black text-[#f7d52b]"
-                                        : "border-black/10 bg-white text-black/75 hover:border-black/20 hover:bg-[#fff6b3]"
+                                            ? "border-black bg-black text-[#f7d52b]"
+                                            : "border-black/10 bg-white text-black/75 hover:border-black/20 hover:bg-[#fff6b3]"
                                         }`}
                                 >
                                     {category}

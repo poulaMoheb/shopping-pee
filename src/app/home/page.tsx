@@ -1,5 +1,5 @@
-import Filters from '../../../public/components/home/Filters';
-import ProductsTable from '../../../public/components/home/products';
+import Filters from '../../components/home/Filters';
+import ProductsTable from '../../components/home/products';
 
 function Page() {
     return (

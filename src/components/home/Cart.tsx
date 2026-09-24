@@ -40,10 +40,10 @@ function Cart({ item }: CartProps) {
 
             <button
                 type="button"
-                onClick={() => router.push('/')}
+                onClick={() => router.push(`/home/${item.id}`)}
                 className="mt-4 inline-flex items-center justify-center rounded-full bg-black px-4 py-2.5 text-[10px] font-black uppercase tracking-[0.14em] text-[#f7d52b] transition hover:translate-y-[-1px] hover:bg-black/90"
             >
-                Add
+                View
             </button>
         </div>
     );
