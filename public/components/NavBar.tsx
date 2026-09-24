@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 const navItems = [
@@ -76,13 +77,13 @@ function NavBar() {
                         }
 
                         return (
-                            <a
+                            <Link
                                 key={item}
-                                href="#"
+                                href={item.charAt(0).toLocaleLowerCase() + item.slice(1)}
                                 className="inline-flex items-center rounded-full px-3 py-2 text-sm font-bold uppercase tracking-[0.12em] text-black/75 transition duration-200 hover:-translate-y-0.5 hover:bg-black/5 hover:text-black"
                             >
                                 {item}
-                            </a>
+                            </Link>
                         );
                     })}
                 </nav>

@@ -4,8 +4,6 @@ import NavBar from "../../public/components/NavBar";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f1df] text-black">
-      <NavBar />
-
       <section className="mx-auto flex max-w-7xl flex-col gap-10 px-4 py-16 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8 lg:py-20">
         <div className="max-w-xl">
           <span className="inline-flex items-center rounded-full border border-black/10 bg-[#f7d52b] px-3 py-1 text-xs font-black uppercase tracking-[0.2em] text-black">
